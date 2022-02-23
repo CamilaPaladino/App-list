@@ -1,4 +1,4 @@
-align="center"> App-list
+<h1 align="center">APP-LIST</h1>
 <h1 align="center">Holaa 👋, Soy Camila Paladino</h1>
 <h3 align="center">Desarrolladora Web en proceso.</h3>
 
