@@ -1,0 +1,69 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TU LISTA DE COMPRAS</title>
+</head>
+<body>
+    <header>
+        <h1>TU LISTA DE COMPRAS</h1>
+    </header>
+        <section id="wireframe1">
+            <h3>UPS!</h3>
+            <h4>Aún no hay nada en tu lista</h4>
+            <img src="https://www.mimbrenatural.com/assets/frontend/tienda/img/cestavacia.png" alt="">
+            <button id="btnAdd1">+</button>
+        </section>
+ 
+        <section id="wireframe2" >
+            <div class="contForm">
+                <div class="form">
+                    <input id="producto" type="text" placeholder="Ingresá un producto" autocomplete="off">
+                    <select id="categoria" required="">
+                        <option value="" selected="" class="selected">Elegí una categoría</option>
+                        <option value="assets/carnes.svg">Carnes</option>
+                        <option value="assets/frutas.svg">Frutas</option>
+                        <option value="assets/verduras.svg">Verduras</option>
+                        <option value="assets/lacteos.svg">Lácteos</option>
+                        <option value="assets/bebidas.svg">Bebidas</option>
+                        <option value="assets/panificados.svg">Panificados</option>
+                        <option value="assets/almacen.svg">Productos de Almacén</option>
+                        <option value="assets/limpieza.svg">Artículos de limpieza</option>
+                        <option value="assets/perfumeria.svg">Perfumería</option>
+                        <option value="assets/salud.svg">Salud</option>
+                        <option value="assets/tecno.svg">Tecnología</option>
+                    </select>
+                    <p id="mensaje"></p>
+                    <textarea name="descripcion" id="description"></textarea>
+                    <button id="btnAdd2">AGREGAR PRODUCTO</button>
+                </div>
+            </div>
+        </section>
+        <section id="wireframe3">
+            <div class="lista">
+                    <ul id="contenedorLista">
+                        <!--<li>
+                            <img src="assets/limpieza.svg" alt="">
+                            producto
+                            <p class="descripFinal"></p>
+                            <i id="arrow" class="fas fa-chevron-circle-right"></i>
+                        </li>-->
+                    </ul>
+            </div>
+            <button id="btnAdd3">+</button>
+        </section>
+        <section id="wireframe4">
+            <div id="contenedorFinal">
+                <!--<img  src="assets/frutas.svg" alt="">
+                <h3>titulo</h3>
+                <p>descripcion</p>-->
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+
+</body></html>
