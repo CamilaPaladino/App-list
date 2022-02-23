@@ -175,6 +175,8 @@ header h1{
 
 #contenedorLista{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 65px;
